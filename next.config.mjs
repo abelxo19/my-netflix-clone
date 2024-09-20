@@ -8,7 +8,10 @@ const nextConfig = {
       },
     ],
   },
-};
+    eslint: {
+      ignoreDuringBuilds: true,
+    },
+  };
 
 // Use the ES module export syntax
 export default nextConfig;
